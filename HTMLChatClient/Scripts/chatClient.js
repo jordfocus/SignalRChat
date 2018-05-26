@@ -3,7 +3,10 @@
     $(document).ready(function () {
 
         // Change this with your server url
-        var chatServerUrl = "http://localhost:62154/signalr";
+        //var chatServerUrl = "http://localhost:62154/signalr";
+        // Self Hosted SignalR Link
+        var chatServerUrl = "http://localhost:8080/signalr";
+
         var connection = $.hubConnection(chatServerUrl, {
             useDefaultPath: false
         });

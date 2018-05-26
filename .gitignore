@@ -3,3 +3,8 @@
 ################################################################################
 
 /HTMLChatClient/bin
+/HTMLChatClient/obj/Debug
+/SignalRChatSelfHost/bin/Debug
+/SignalRChatSelfHost/obj/Debug
+/SignalRChatSystem/bin
+/SignalRChatSystem/obj/Debug
